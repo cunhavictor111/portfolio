@@ -46,6 +46,10 @@ header li{
     margin-right: 2rem;
 }
 
+header a{
+    text-decoration: none;
+}
+
 .intro{
     display: flex;
     flex-direction: column;
