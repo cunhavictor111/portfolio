@@ -183,8 +183,30 @@ header a{
 
 .contact-media li{
     margin: 2rem;
+    margin-left: 1rem;
+    
 }
 
 a{
     color: black;
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: black;
+    height: var(--header-height);
+    background-color: antiquewhite;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
 }
